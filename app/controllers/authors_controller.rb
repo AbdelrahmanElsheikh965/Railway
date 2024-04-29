@@ -1,4 +1,6 @@
 class AuthorsController < ApplicationController
+  # to => bypass csrf token in postman | Disable CSRF Protection
+  # skip_before_action :verify_authenticity_token, only: :create
   before_action :set_author, only: %i[ show update destroy ]
 
   # GET /authors
