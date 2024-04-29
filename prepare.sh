@@ -44,3 +44,6 @@ eval "rails -v"
   cd ~/.rbenv &&
   eval "git pull"
 )
+
+# rails new .
+# rails s
